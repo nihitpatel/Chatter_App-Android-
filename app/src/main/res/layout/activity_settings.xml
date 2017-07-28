@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nihit.chatter.SettingsActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:text="CHANGE IMAGE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changeimg"
+        android:backgroundTint="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:layout_above="@+id/changestatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textStyle="normal|bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@mipmap/ic_person_white_48dp"
+        android:layout_marginTop="40dp"
+        android:minHeight="178dp"
+        android:minWidth="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image" />
+
+    <TextView
+        android:text="Display Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displayname"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <TextView
+        android:text="Hi there,I'm using chatter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/displaystatus"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="47dp"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/displayname"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="CHANGE STATUS "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changestatus"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

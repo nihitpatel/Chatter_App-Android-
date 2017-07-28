@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "918856703247",
+    "firebase_url": "https://chatter-f8b72.firebaseio.com",
+    "project_id": "chatter-f8b72",
+    "storage_bucket": "chatter-f8b72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918856703247:android:0c49361b4b689b04",
+        "android_client_info": {
+          "package_name": "com.example.nihit.chatter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918856703247-aqcq3bgq7goiqiv1uc5fe5slo91qlfe3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nihit.chatter",
+            "certificate_hash": "e8bdf8355814816b5af590bc7ed23f504b5227b4"
+          }
+        },
+        {
+          "client_id": "918856703247-kc4bi36qaaq59vag4l0udkn2ktopblp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBikGJCPhjj-vJhV_bclUBE6vS_bBkhLqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918856703247-kc4bi36qaaq59vag4l0udkn2ktopblp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

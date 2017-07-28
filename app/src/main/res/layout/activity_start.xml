@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimaryDark"
+    tools:context="com.example.nihit.chatter.StartActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/Registerbtn"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/Loginbtn"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/Loginbtn"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
